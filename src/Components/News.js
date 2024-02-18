@@ -77,7 +77,7 @@ handlePrevioustClick=async()=>{
   render() {
     return (
       <div className='container my-3'>
-        <h1 className="text-centre" style={{textAlign:"center",margin:'40px 0px'}}>NewsMonkey - Top Headlines</h1>
+        <h1 className="text-centre" style={{textAlign:"center",margin:'40px 0px'}}>NewsDaily - Top Headlines</h1>
         {this.state.loading && <Spinner/>}
         <div className='row my-2'>
           {!this.state.loading &&this.state.articles.map((element)=>{

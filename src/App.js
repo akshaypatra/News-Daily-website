@@ -7,7 +7,7 @@ import './App.css';
 import React, { Component } from 'react'
 import NavBar from './Components/NavBar';
 import News from './Components/News';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 export default class App extends Component {
   render() {
